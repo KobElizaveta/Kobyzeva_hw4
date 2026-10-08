@@ -190,12 +190,12 @@ namespace Kobyzeva_Latypova_hw4
             DrawNumOrPrintError();
 
             Console.WriteLine("Задание 4");
-            Grandfather granfather1 = new Grandfather("Иван Петрович", GrumpinessLevel.ModeraterlyGrumpy, ["Бестолочь", "Оболтус", "Балабол", "Блядь", "Сучий сын", "Выебистый", "Хам"], default);
+            Grandfather granfather1 = new Grandfather("Иван Петрович", GrumpinessLevel.ModeraterlyGrumpy, ["Бестолочь", "Оболтус", "Балабол", "Хам"], default);
             Grandfather granfather2 = new Grandfather("Степаныч", GrumpinessLevel.SlightlyGrumpy, ["Недоросль", "Свинтус", "Сопляк", "Выскочка"], default);
-            Grandfather granfather3 = new Grandfather("Василич", GrumpinessLevel.Grumpy, ["Баламут", "Обжора", "Хам", "Идиот", "Доебчивый", "Долбоеб", "Уебан", "Пиздабол", "Сука"], default);
+            Grandfather granfather3 = new Grandfather("Василич", GrumpinessLevel.Grumpy, ["Баламут", "Обжора", "Хам", "Идиот"], default);
             Grandfather granfather4 = new Grandfather("Тихон", GrumpinessLevel.NotGrumpy, ["Подлец", "Грубиян", "Бесстыдник"], default);
-            Grandfather granfather5 = new Grandfather("Володя Трубочист", GrumpinessLevel.SlightlyGrumpy, ["Дармоед", "Мямля", "Лоботряс", "Ебанутый", "Ебанько"], default);
-            string[] listBadWords = { "Блядь", "Сучий сын", "Выебистый", "Доебчивый", "Долбоеб", "Уебан", "Ебанько", "Ебанутый", "Сука", "Пиздабол" };
+            Grandfather granfather5 = new Grandfather("Володя Трубочист", GrumpinessLevel.SlightlyGrumpy, ["Дармоед", "Мямля", "Лоботряс"], default);
+            string[] listBadWords = {};
 
             Grandfather.BruisesForUsingFoulLanguage(granfather1, listBadWords);
             Grandfather.BruisesForUsingFoulLanguage(granfather2, listBadWords);
